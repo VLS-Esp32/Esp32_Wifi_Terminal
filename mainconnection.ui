@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainConnection</class>
+ <widget class="QDialog" name="MainConnection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1067</width>
+    <height>543</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1067</width>
+    <height>521</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>1067</width>
+    <height>521</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="appdata.qrc">
+    <normaloff>:/icon/icon-1.ico</normaloff>:/icon/icon-1.ico</iconset>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>460</y>
+     <width>1021</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Send</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>1021</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="autoFormatting">
+    <set>QTextEdit::AutoBulletList</set>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="overwriteMode">
+    <bool>false</bool>
+   </property>
+   <property name="tabStopWidth">
+    <number>160</number>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>500</y>
+     <width>517</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>Clear</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="sndnl">
+        <property name="text">
+         <string>Send endl</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox">
+      <property name="text">
+       <string>Autoscroling</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="checkBox_2">
+      <property name="text">
+       <string>PrintTime</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="comboBox">
+      <property name="editable">
+       <bool>false</bool>
+      </property>
+      <property name="currentText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="appdata.qrc"/>
+ </resources>
+ <connections/>
+</ui>
